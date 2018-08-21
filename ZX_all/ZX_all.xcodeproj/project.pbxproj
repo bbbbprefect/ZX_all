@@ -18,25 +18,26 @@
 		F13845D0212AB71000AD6732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845CF212AB71000AD6732 /* main.m */; };
 		F13845DA212AB71100AD6732 /* ZX_allTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845D9212AB71100AD6732 /* ZX_allTests.m */; };
 		F13845E5212AB71100AD6732 /* ZX_allUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845E4212AB71100AD6732 /* ZX_allUITests.m */; };
-		F148417B212C0B0800FC256F /* editorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484155212C0B0800FC256F /* editorViewController.m */; };
-		F148417C212C0B0800FC256F /* selectStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484158212C0B0800FC256F /* selectStyleView.m */; };
-		F148417D212C0B0800FC256F /* mailTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148415B212C0B0800FC256F /* mailTextView.m */; };
-		F148417E212C0B0800FC256F /* MailRichTextEditor.js in Resources */ = {isa = PBXBuildFile; fileRef = F148415D212C0B0800FC256F /* MailRichTextEditor.js */; };
-		F148417F212C0B0800FC256F /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = F148415E212C0B0800FC256F /* editor.html */; };
-		F1484180212C0B0800FC256F /* JSBeautifier.js in Resources */ = {isa = PBXBuildFile; fileRef = F148415F212C0B0800FC256F /* JSBeautifier.js */; };
-		F1484181212C0B0800FC256F /* jQuery.js in Resources */ = {isa = PBXBuildFile; fileRef = F1484160212C0B0800FC256F /* jQuery.js */; };
-		F1484182212C0B0800FC256F /* styleBtnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484161212C0B0800FC256F /* styleBtnItem.m */; };
-		F1484183212C0B0800FC256F /* MailRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484162212C0B0800FC256F /* MailRichTextEditor.m */; };
-		F1484184212C0B0800FC256F /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484169212C0B0800FC256F /* HRCgUtil.m */; };
-		F1484185212C0B0800FC256F /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416A212C0B0800FC256F /* HRColorPickerViewController.m */; };
-		F1484186212C0B0800FC256F /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416B212C0B0800FC256F /* HRColorPickerView.m */; };
-		F1484187212C0B0800FC256F /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416C212C0B0800FC256F /* HRBrightnessCursor.m */; };
-		F1484188212C0B0800FC256F /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416D212C0B0800FC256F /* CYRLayoutManager.m */; };
-		F1484189212C0B0800FC256F /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416E212C0B0800FC256F /* CYRToken.m */; };
-		F148418A212C0B0800FC256F /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416F212C0B0800FC256F /* CYRTextStorage.m */; };
-		F148418B212C0B0800FC256F /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484170212C0B0800FC256F /* CYRTextView.m */; };
-		F148418C212C0B0800FC256F /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484171212C0B0800FC256F /* HRColorUtil.m */; };
-		F148418D212C0B0800FC256F /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484172212C0B0800FC256F /* HRColorCursor.m */; };
+		F19429DE212C146F00E08B1E /* editorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429B8212C146F00E08B1E /* editorViewController.m */; };
+		F19429DF212C146F00E08B1E /* selectStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429BB212C146F00E08B1E /* selectStyleView.m */; };
+		F19429E0212C146F00E08B1E /* mailTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429BE212C146F00E08B1E /* mailTextView.m */; };
+		F19429E1212C146F00E08B1E /* MailRichTextEditor.js in Resources */ = {isa = PBXBuildFile; fileRef = F19429C0212C146F00E08B1E /* MailRichTextEditor.js */; };
+		F19429E2212C146F00E08B1E /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = F19429C1212C146F00E08B1E /* editor.html */; };
+		F19429E3212C146F00E08B1E /* JSBeautifier.js in Resources */ = {isa = PBXBuildFile; fileRef = F19429C2212C146F00E08B1E /* JSBeautifier.js */; };
+		F19429E4212C146F00E08B1E /* jQuery.js in Resources */ = {isa = PBXBuildFile; fileRef = F19429C3212C146F00E08B1E /* jQuery.js */; };
+		F19429E5212C146F00E08B1E /* styleBtnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429C4212C146F00E08B1E /* styleBtnItem.m */; };
+		F19429E6212C146F00E08B1E /* MailRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429C5212C146F00E08B1E /* MailRichTextEditor.m */; };
+		F19429E7212C146F00E08B1E /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429CC212C146F00E08B1E /* HRCgUtil.m */; };
+		F19429E8212C146F00E08B1E /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429CD212C146F00E08B1E /* HRColorPickerViewController.m */; };
+		F19429E9212C146F00E08B1E /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429CE212C146F00E08B1E /* HRColorPickerView.m */; };
+		F19429EA212C146F00E08B1E /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429CF212C146F00E08B1E /* HRBrightnessCursor.m */; };
+		F19429EB212C146F00E08B1E /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429D0212C146F00E08B1E /* CYRLayoutManager.m */; };
+		F19429EC212C146F00E08B1E /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429D1212C146F00E08B1E /* CYRToken.m */; };
+		F19429ED212C146F00E08B1E /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429D2212C146F00E08B1E /* CYRTextStorage.m */; };
+		F19429EE212C146F00E08B1E /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429D3212C146F00E08B1E /* CYRTextView.m */; };
+		F19429EF212C146F00E08B1E /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429D4212C146F00E08B1E /* HRColorUtil.m */; };
+		F19429F0212C146F00E08B1E /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429D5212C146F00E08B1E /* HRColorCursor.m */; };
+		F19429F4212C14C000E08B1E /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429F3212C14C000E08B1E /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,41 +83,43 @@
 		F13845E0212AB71100AD6732 /* ZX_allUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZX_allUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13845E4212AB71100AD6732 /* ZX_allUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZX_allUITests.m; sourceTree = "<group>"; };
 		F13845E6212AB71100AD6732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1484155212C0B0800FC256F /* editorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editorViewController.m; sourceTree = "<group>"; };
-		F1484156212C0B0800FC256F /* editorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editorViewController.h; sourceTree = "<group>"; };
-		F1484158212C0B0800FC256F /* selectStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectStyleView.m; sourceTree = "<group>"; };
-		F1484159212C0B0800FC256F /* MailRichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailRichTextEditor.h; sourceTree = "<group>"; };
-		F148415A212C0B0800FC256F /* styleBtnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = styleBtnItem.h; sourceTree = "<group>"; };
-		F148415B212C0B0800FC256F /* mailTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mailTextView.m; sourceTree = "<group>"; };
-		F148415D212C0B0800FC256F /* MailRichTextEditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MailRichTextEditor.js; sourceTree = "<group>"; };
-		F148415E212C0B0800FC256F /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = editor.html; sourceTree = "<group>"; };
-		F148415F212C0B0800FC256F /* JSBeautifier.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSBeautifier.js; sourceTree = "<group>"; };
-		F1484160212C0B0800FC256F /* jQuery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jQuery.js; sourceTree = "<group>"; };
-		F1484161212C0B0800FC256F /* styleBtnItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = styleBtnItem.m; sourceTree = "<group>"; };
-		F1484162212C0B0800FC256F /* MailRichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailRichTextEditor.m; sourceTree = "<group>"; };
-		F1484163212C0B0800FC256F /* selectStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectStyleView.h; sourceTree = "<group>"; };
-		F1484164212C0B0800FC256F /* mailTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailTextView.h; sourceTree = "<group>"; };
-		F1484166212C0B0800FC256F /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
-		F1484167212C0B0800FC256F /* HRColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorUtil.h; sourceTree = "<group>"; };
-		F1484168212C0B0800FC256F /* CYRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextView.h; sourceTree = "<group>"; };
-		F1484169212C0B0800FC256F /* HRCgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCgUtil.m; sourceTree = "<group>"; };
-		F148416A212C0B0800FC256F /* HRColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerViewController.m; sourceTree = "<group>"; };
-		F148416B212C0B0800FC256F /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
-		F148416C212C0B0800FC256F /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
-		F148416D212C0B0800FC256F /* CYRLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRLayoutManager.m; sourceTree = "<group>"; };
-		F148416E212C0B0800FC256F /* CYRToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRToken.m; sourceTree = "<group>"; };
-		F148416F212C0B0800FC256F /* CYRTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextStorage.m; sourceTree = "<group>"; };
-		F1484170212C0B0800FC256F /* CYRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextView.m; sourceTree = "<group>"; };
-		F1484171212C0B0800FC256F /* HRColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorUtil.m; sourceTree = "<group>"; };
-		F1484172212C0B0800FC256F /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
-		F1484173212C0B0800FC256F /* HRColorPickerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerMacros.h; sourceTree = "<group>"; };
-		F1484174212C0B0800FC256F /* HRCgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCgUtil.h; sourceTree = "<group>"; };
-		F1484175212C0B0800FC256F /* CYRToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRToken.h; sourceTree = "<group>"; };
-		F1484176212C0B0800FC256F /* CYRLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRLayoutManager.h; sourceTree = "<group>"; };
-		F1484177212C0B0800FC256F /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
-		F1484178212C0B0800FC256F /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
-		F1484179212C0B0800FC256F /* HRColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerViewController.h; sourceTree = "<group>"; };
-		F148417A212C0B0800FC256F /* CYRTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextStorage.h; sourceTree = "<group>"; };
+		F19429B8212C146F00E08B1E /* editorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editorViewController.m; sourceTree = "<group>"; };
+		F19429B9212C146F00E08B1E /* editorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editorViewController.h; sourceTree = "<group>"; };
+		F19429BB212C146F00E08B1E /* selectStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectStyleView.m; sourceTree = "<group>"; };
+		F19429BC212C146F00E08B1E /* MailRichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailRichTextEditor.h; sourceTree = "<group>"; };
+		F19429BD212C146F00E08B1E /* styleBtnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = styleBtnItem.h; sourceTree = "<group>"; };
+		F19429BE212C146F00E08B1E /* mailTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mailTextView.m; sourceTree = "<group>"; };
+		F19429C0212C146F00E08B1E /* MailRichTextEditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MailRichTextEditor.js; sourceTree = "<group>"; };
+		F19429C1212C146F00E08B1E /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = editor.html; sourceTree = "<group>"; };
+		F19429C2212C146F00E08B1E /* JSBeautifier.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSBeautifier.js; sourceTree = "<group>"; };
+		F19429C3212C146F00E08B1E /* jQuery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jQuery.js; sourceTree = "<group>"; };
+		F19429C4212C146F00E08B1E /* styleBtnItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = styleBtnItem.m; sourceTree = "<group>"; };
+		F19429C5212C146F00E08B1E /* MailRichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailRichTextEditor.m; sourceTree = "<group>"; };
+		F19429C6212C146F00E08B1E /* selectStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectStyleView.h; sourceTree = "<group>"; };
+		F19429C7212C146F00E08B1E /* mailTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailTextView.h; sourceTree = "<group>"; };
+		F19429C9212C146F00E08B1E /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		F19429CA212C146F00E08B1E /* HRColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorUtil.h; sourceTree = "<group>"; };
+		F19429CB212C146F00E08B1E /* CYRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextView.h; sourceTree = "<group>"; };
+		F19429CC212C146F00E08B1E /* HRCgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCgUtil.m; sourceTree = "<group>"; };
+		F19429CD212C146F00E08B1E /* HRColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerViewController.m; sourceTree = "<group>"; };
+		F19429CE212C146F00E08B1E /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		F19429CF212C146F00E08B1E /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		F19429D0212C146F00E08B1E /* CYRLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRLayoutManager.m; sourceTree = "<group>"; };
+		F19429D1212C146F00E08B1E /* CYRToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRToken.m; sourceTree = "<group>"; };
+		F19429D2212C146F00E08B1E /* CYRTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextStorage.m; sourceTree = "<group>"; };
+		F19429D3212C146F00E08B1E /* CYRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextView.m; sourceTree = "<group>"; };
+		F19429D4212C146F00E08B1E /* HRColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorUtil.m; sourceTree = "<group>"; };
+		F19429D5212C146F00E08B1E /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		F19429D6212C146F00E08B1E /* HRColorPickerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerMacros.h; sourceTree = "<group>"; };
+		F19429D7212C146F00E08B1E /* HRCgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCgUtil.h; sourceTree = "<group>"; };
+		F19429D8212C146F00E08B1E /* CYRToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRToken.h; sourceTree = "<group>"; };
+		F19429D9212C146F00E08B1E /* CYRLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRLayoutManager.h; sourceTree = "<group>"; };
+		F19429DA212C146F00E08B1E /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		F19429DB212C146F00E08B1E /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		F19429DC212C146F00E08B1E /* HRColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerViewController.h; sourceTree = "<group>"; };
+		F19429DD212C146F00E08B1E /* CYRTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextStorage.h; sourceTree = "<group>"; };
+		F19429F2212C14C000E08B1E /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		F19429F3212C14C000E08B1E /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +198,8 @@
 		F13845BF212AB70F00AD6732 /* ZX_all */ = {
 			isa = PBXGroup;
 			children = (
-				F1484154212C0B0800FC256F /* mailEditor */,
+				F19429F1212C14AF00E08B1E /* testVC */,
+				F19429B7212C146F00E08B1E /* mailEditor */,
 				F13845C0212AB70F00AD6732 /* AppDelegate.h */,
 				F13845C1212AB70F00AD6732 /* AppDelegate.m */,
 				F13845C3212AB70F00AD6732 /* ViewController.h */,
@@ -227,70 +231,79 @@
 			path = ZX_allUITests;
 			sourceTree = "<group>";
 		};
-		F1484154212C0B0800FC256F /* mailEditor */ = {
+		F19429B7212C146F00E08B1E /* mailEditor */ = {
 			isa = PBXGroup;
 			children = (
-				F1484155212C0B0800FC256F /* editorViewController.m */,
-				F1484156212C0B0800FC256F /* editorViewController.h */,
-				F1484157212C0B0800FC256F /* editor */,
+				F19429B8212C146F00E08B1E /* editorViewController.m */,
+				F19429B9212C146F00E08B1E /* editorViewController.h */,
+				F19429BA212C146F00E08B1E /* editor */,
 			);
 			path = mailEditor;
 			sourceTree = "<group>";
 		};
-		F1484157212C0B0800FC256F /* editor */ = {
+		F19429BA212C146F00E08B1E /* editor */ = {
 			isa = PBXGroup;
 			children = (
-				F1484158212C0B0800FC256F /* selectStyleView.m */,
-				F1484159212C0B0800FC256F /* MailRichTextEditor.h */,
-				F148415A212C0B0800FC256F /* styleBtnItem.h */,
-				F148415B212C0B0800FC256F /* mailTextView.m */,
-				F148415C212C0B0800FC256F /* Source */,
-				F1484161212C0B0800FC256F /* styleBtnItem.m */,
-				F1484162212C0B0800FC256F /* MailRichTextEditor.m */,
-				F1484163212C0B0800FC256F /* selectStyleView.h */,
-				F1484164212C0B0800FC256F /* mailTextView.h */,
-				F1484165212C0B0800FC256F /* Third Party */,
+				F19429BB212C146F00E08B1E /* selectStyleView.m */,
+				F19429BC212C146F00E08B1E /* MailRichTextEditor.h */,
+				F19429BD212C146F00E08B1E /* styleBtnItem.h */,
+				F19429BE212C146F00E08B1E /* mailTextView.m */,
+				F19429BF212C146F00E08B1E /* Source */,
+				F19429C4212C146F00E08B1E /* styleBtnItem.m */,
+				F19429C5212C146F00E08B1E /* MailRichTextEditor.m */,
+				F19429C6212C146F00E08B1E /* selectStyleView.h */,
+				F19429C7212C146F00E08B1E /* mailTextView.h */,
+				F19429C8212C146F00E08B1E /* Third Party */,
 			);
 			path = editor;
 			sourceTree = "<group>";
 		};
-		F148415C212C0B0800FC256F /* Source */ = {
+		F19429BF212C146F00E08B1E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F148415D212C0B0800FC256F /* MailRichTextEditor.js */,
-				F148415E212C0B0800FC256F /* editor.html */,
-				F148415F212C0B0800FC256F /* JSBeautifier.js */,
-				F1484160212C0B0800FC256F /* jQuery.js */,
+				F19429C0212C146F00E08B1E /* MailRichTextEditor.js */,
+				F19429C1212C146F00E08B1E /* editor.html */,
+				F19429C2212C146F00E08B1E /* JSBeautifier.js */,
+				F19429C3212C146F00E08B1E /* jQuery.js */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		F1484165212C0B0800FC256F /* Third Party */ = {
+		F19429C8212C146F00E08B1E /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				F1484166212C0B0800FC256F /* HRColorCursor.h */,
-				F1484167212C0B0800FC256F /* HRColorUtil.h */,
-				F1484168212C0B0800FC256F /* CYRTextView.h */,
-				F1484169212C0B0800FC256F /* HRCgUtil.m */,
-				F148416A212C0B0800FC256F /* HRColorPickerViewController.m */,
-				F148416B212C0B0800FC256F /* HRColorPickerView.m */,
-				F148416C212C0B0800FC256F /* HRBrightnessCursor.m */,
-				F148416D212C0B0800FC256F /* CYRLayoutManager.m */,
-				F148416E212C0B0800FC256F /* CYRToken.m */,
-				F148416F212C0B0800FC256F /* CYRTextStorage.m */,
-				F1484170212C0B0800FC256F /* CYRTextView.m */,
-				F1484171212C0B0800FC256F /* HRColorUtil.m */,
-				F1484172212C0B0800FC256F /* HRColorCursor.m */,
-				F1484173212C0B0800FC256F /* HRColorPickerMacros.h */,
-				F1484174212C0B0800FC256F /* HRCgUtil.h */,
-				F1484175212C0B0800FC256F /* CYRToken.h */,
-				F1484176212C0B0800FC256F /* CYRLayoutManager.h */,
-				F1484177212C0B0800FC256F /* HRBrightnessCursor.h */,
-				F1484178212C0B0800FC256F /* HRColorPickerView.h */,
-				F1484179212C0B0800FC256F /* HRColorPickerViewController.h */,
-				F148417A212C0B0800FC256F /* CYRTextStorage.h */,
+				F19429C9212C146F00E08B1E /* HRColorCursor.h */,
+				F19429CA212C146F00E08B1E /* HRColorUtil.h */,
+				F19429CB212C146F00E08B1E /* CYRTextView.h */,
+				F19429CC212C146F00E08B1E /* HRCgUtil.m */,
+				F19429CD212C146F00E08B1E /* HRColorPickerViewController.m */,
+				F19429CE212C146F00E08B1E /* HRColorPickerView.m */,
+				F19429CF212C146F00E08B1E /* HRBrightnessCursor.m */,
+				F19429D0212C146F00E08B1E /* CYRLayoutManager.m */,
+				F19429D1212C146F00E08B1E /* CYRToken.m */,
+				F19429D2212C146F00E08B1E /* CYRTextStorage.m */,
+				F19429D3212C146F00E08B1E /* CYRTextView.m */,
+				F19429D4212C146F00E08B1E /* HRColorUtil.m */,
+				F19429D5212C146F00E08B1E /* HRColorCursor.m */,
+				F19429D6212C146F00E08B1E /* HRColorPickerMacros.h */,
+				F19429D7212C146F00E08B1E /* HRCgUtil.h */,
+				F19429D8212C146F00E08B1E /* CYRToken.h */,
+				F19429D9212C146F00E08B1E /* CYRLayoutManager.h */,
+				F19429DA212C146F00E08B1E /* HRBrightnessCursor.h */,
+				F19429DB212C146F00E08B1E /* HRColorPickerView.h */,
+				F19429DC212C146F00E08B1E /* HRColorPickerViewController.h */,
+				F19429DD212C146F00E08B1E /* CYRTextStorage.h */,
 			);
 			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		F19429F1212C14AF00E08B1E /* testVC */ = {
+			isa = PBXGroup;
+			children = (
+				F19429F2212C14C000E08B1E /* testViewController.h */,
+				F19429F3212C14C000E08B1E /* testViewController.m */,
+			);
+			path = testVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,11 +413,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13845CD212AB71000AD6732 /* LaunchScreen.storyboard in Resources */,
-				F1484180212C0B0800FC256F /* JSBeautifier.js in Resources */,
-				F148417F212C0B0800FC256F /* editor.html in Resources */,
-				F148417E212C0B0800FC256F /* MailRichTextEditor.js in Resources */,
+				F19429E3212C146F00E08B1E /* JSBeautifier.js in Resources */,
+				F19429E2212C146F00E08B1E /* editor.html in Resources */,
+				F19429E1212C146F00E08B1E /* MailRichTextEditor.js in Resources */,
 				F13845CA212AB71000AD6732 /* Assets.xcassets in Resources */,
-				F1484181212C0B0800FC256F /* jQuery.js in Resources */,
+				F19429E4212C146F00E08B1E /* jQuery.js in Resources */,
 				F13845C8212AB70F00AD6732 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,23 +501,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13845C5212AB70F00AD6732 /* ViewController.m in Sources */,
-				F148418A212C0B0800FC256F /* CYRTextStorage.m in Sources */,
-				F148417C212C0B0800FC256F /* selectStyleView.m in Sources */,
+				F19429ED212C146F00E08B1E /* CYRTextStorage.m in Sources */,
+				F19429DF212C146F00E08B1E /* selectStyleView.m in Sources */,
 				F13845D0212AB71000AD6732 /* main.m in Sources */,
-				F1484184212C0B0800FC256F /* HRCgUtil.m in Sources */,
-				F148418D212C0B0800FC256F /* HRColorCursor.m in Sources */,
+				F19429E7212C146F00E08B1E /* HRCgUtil.m in Sources */,
+				F19429F0212C146F00E08B1E /* HRColorCursor.m in Sources */,
 				F13845C2212AB70F00AD6732 /* AppDelegate.m in Sources */,
-				F148418B212C0B0800FC256F /* CYRTextView.m in Sources */,
-				F1484188212C0B0800FC256F /* CYRLayoutManager.m in Sources */,
-				F1484183212C0B0800FC256F /* MailRichTextEditor.m in Sources */,
-				F1484185212C0B0800FC256F /* HRColorPickerViewController.m in Sources */,
-				F148417D212C0B0800FC256F /* mailTextView.m in Sources */,
-				F1484187212C0B0800FC256F /* HRBrightnessCursor.m in Sources */,
-				F1484189212C0B0800FC256F /* CYRToken.m in Sources */,
-				F148418C212C0B0800FC256F /* HRColorUtil.m in Sources */,
-				F148417B212C0B0800FC256F /* editorViewController.m in Sources */,
-				F1484182212C0B0800FC256F /* styleBtnItem.m in Sources */,
-				F1484186212C0B0800FC256F /* HRColorPickerView.m in Sources */,
+				F19429EE212C146F00E08B1E /* CYRTextView.m in Sources */,
+				F19429EB212C146F00E08B1E /* CYRLayoutManager.m in Sources */,
+				F19429E6212C146F00E08B1E /* MailRichTextEditor.m in Sources */,
+				F19429F4212C14C000E08B1E /* testViewController.m in Sources */,
+				F19429E8212C146F00E08B1E /* HRColorPickerViewController.m in Sources */,
+				F19429E0212C146F00E08B1E /* mailTextView.m in Sources */,
+				F19429EA212C146F00E08B1E /* HRBrightnessCursor.m in Sources */,
+				F19429EC212C146F00E08B1E /* CYRToken.m in Sources */,
+				F19429EF212C146F00E08B1E /* HRColorUtil.m in Sources */,
+				F19429DE212C146F00E08B1E /* editorViewController.m in Sources */,
+				F19429E5212C146F00E08B1E /* styleBtnItem.m in Sources */,
+				F19429E9212C146F00E08B1E /* HRColorPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

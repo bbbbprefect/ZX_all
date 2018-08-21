@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "editorViewController.h"
+#include "testViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -23,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataArray = [[NSMutableArray alloc]initWithObjects:@"富文本编辑器", nil];
+    self.dataArray = [[NSMutableArray alloc]initWithObjects:@"测试界面",@"富文本编辑器", nil];
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     
@@ -61,11 +62,25 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"选中didSelectRowAtIndexPath row = %ld", indexPath.row);
-    //富文本跳转
-    if(indexPath.row == 0)
-    {
-        editorViewController *eVC = [[editorViewController alloc]init];
-        [self.navigationController pushViewController:eVC animated:YES];
+    
+    switch (indexPath.row) {
+        //测试界面跳转
+        case 0:
+            {
+                testViewController *testVC = [[testViewController alloc]init];
+                [self.navigationController pushViewController:testVC animated:YES];
+            }
+            break;
+        //富文本跳转
+        case 1:
+            {
+                editorViewController *eVC = [[editorViewController alloc]init];
+                [self.navigationController pushViewController:eVC animated:YES];
+            }
+            break;
+            
+        default:
+            break;
     }
     
 }
