@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E7966C7BFE95E5B4C4AD81 /* libPods-ZX_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86145A9DBBC049BC7BA15F16 /* libPods-ZX_all.a */; };
+		597EDD00FC8F82829B9DC4D0 /* libPods-ZX_allUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BA43FB1748CDD45CC474A5 /* libPods-ZX_allUITests.a */; };
+		ABE182A76436D72322CF789B /* libPods-ZX_allTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3572EE5BD61EE7F18711BDCB /* libPods-ZX_allTests.a */; };
+		F13845C2212AB70F00AD6732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845C1212AB70F00AD6732 /* AppDelegate.m */; };
+		F13845C5212AB70F00AD6732 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845C4212AB70F00AD6732 /* ViewController.m */; };
+		F13845C8212AB70F00AD6732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13845C6212AB70F00AD6732 /* Main.storyboard */; };
+		F13845CA212AB71000AD6732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13845C9212AB71000AD6732 /* Assets.xcassets */; };
+		F13845CD212AB71000AD6732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13845CB212AB71000AD6732 /* LaunchScreen.storyboard */; };
+		F13845D0212AB71000AD6732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845CF212AB71000AD6732 /* main.m */; };
+		F13845DA212AB71100AD6732 /* ZX_allTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845D9212AB71100AD6732 /* ZX_allTests.m */; };
+		F13845E5212AB71100AD6732 /* ZX_allUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845E4212AB71100AD6732 /* ZX_allUITests.m */; };
+		F148417B212C0B0800FC256F /* editorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484155212C0B0800FC256F /* editorViewController.m */; };
+		F148417C212C0B0800FC256F /* selectStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484158212C0B0800FC256F /* selectStyleView.m */; };
+		F148417D212C0B0800FC256F /* mailTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148415B212C0B0800FC256F /* mailTextView.m */; };
+		F148417E212C0B0800FC256F /* MailRichTextEditor.js in Resources */ = {isa = PBXBuildFile; fileRef = F148415D212C0B0800FC256F /* MailRichTextEditor.js */; };
+		F148417F212C0B0800FC256F /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = F148415E212C0B0800FC256F /* editor.html */; };
+		F1484180212C0B0800FC256F /* JSBeautifier.js in Resources */ = {isa = PBXBuildFile; fileRef = F148415F212C0B0800FC256F /* JSBeautifier.js */; };
+		F1484181212C0B0800FC256F /* jQuery.js in Resources */ = {isa = PBXBuildFile; fileRef = F1484160212C0B0800FC256F /* jQuery.js */; };
+		F1484182212C0B0800FC256F /* styleBtnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484161212C0B0800FC256F /* styleBtnItem.m */; };
+		F1484183212C0B0800FC256F /* MailRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484162212C0B0800FC256F /* MailRichTextEditor.m */; };
+		F1484184212C0B0800FC256F /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484169212C0B0800FC256F /* HRCgUtil.m */; };
+		F1484185212C0B0800FC256F /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416A212C0B0800FC256F /* HRColorPickerViewController.m */; };
+		F1484186212C0B0800FC256F /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416B212C0B0800FC256F /* HRColorPickerView.m */; };
+		F1484187212C0B0800FC256F /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416C212C0B0800FC256F /* HRBrightnessCursor.m */; };
+		F1484188212C0B0800FC256F /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416D212C0B0800FC256F /* CYRLayoutManager.m */; };
+		F1484189212C0B0800FC256F /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416E212C0B0800FC256F /* CYRToken.m */; };
+		F148418A212C0B0800FC256F /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F148416F212C0B0800FC256F /* CYRTextStorage.m */; };
+		F148418B212C0B0800FC256F /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484170212C0B0800FC256F /* CYRTextView.m */; };
+		F148418C212C0B0800FC256F /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484171212C0B0800FC256F /* HRColorUtil.m */; };
+		F148418D212C0B0800FC256F /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1484172212C0B0800FC256F /* HRColorCursor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13845D6212AB71100AD6732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13845B5212AB70F00AD6732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13845BC212AB70F00AD6732;
+			remoteInfo = ZX_all;
+		};
+		F13845E1212AB71100AD6732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13845B5212AB70F00AD6732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13845BC212AB70F00AD6732;
+			remoteInfo = ZX_all;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013DD9AAA1486BDBBC4C155F /* Pods-ZX_all.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX_all.debug.xcconfig"; path = "Target Support Files/Pods-ZX_all/Pods-ZX_all.debug.xcconfig"; sourceTree = "<group>"; };
+		12BA43FB1748CDD45CC474A5 /* libPods-ZX_allUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZX_allUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3AE759DE5A29A56D40628A /* Pods-ZX_allTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX_allTests.debug.xcconfig"; path = "Target Support Files/Pods-ZX_allTests/Pods-ZX_allTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3572EE5BD61EE7F18711BDCB /* libPods-ZX_allTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZX_allTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72920535B1EE31721009551D /* Pods-ZX_all.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX_all.release.xcconfig"; path = "Target Support Files/Pods-ZX_all/Pods-ZX_all.release.xcconfig"; sourceTree = "<group>"; };
+		86145A9DBBC049BC7BA15F16 /* libPods-ZX_all.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZX_all.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9011D02D668B3AA5953B558D /* Pods-ZX_allUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX_allUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZX_allUITests/Pods-ZX_allUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A262898FE2BE99076A3BD42F /* Pods-ZX_allTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX_allTests.release.xcconfig"; path = "Target Support Files/Pods-ZX_allTests/Pods-ZX_allTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9E8989D866DC27B85376BD8 /* Pods-ZX_allUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX_allUITests.release.xcconfig"; path = "Target Support Files/Pods-ZX_allUITests/Pods-ZX_allUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F13845BD212AB70F00AD6732 /* ZX_all.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZX_all.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13845C0212AB70F00AD6732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F13845C1212AB70F00AD6732 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F13845C3212AB70F00AD6732 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F13845C4212AB70F00AD6732 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F13845C7212AB70F00AD6732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13845C9212AB71000AD6732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13845CC212AB71000AD6732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13845CE212AB71000AD6732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13845CF212AB71000AD6732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13845D5212AB71100AD6732 /* ZX_allTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZX_allTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13845D9212AB71100AD6732 /* ZX_allTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZX_allTests.m; sourceTree = "<group>"; };
+		F13845DB212AB71100AD6732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13845E0212AB71100AD6732 /* ZX_allUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZX_allUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13845E4212AB71100AD6732 /* ZX_allUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZX_allUITests.m; sourceTree = "<group>"; };
+		F13845E6212AB71100AD6732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1484155212C0B0800FC256F /* editorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editorViewController.m; sourceTree = "<group>"; };
+		F1484156212C0B0800FC256F /* editorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editorViewController.h; sourceTree = "<group>"; };
+		F1484158212C0B0800FC256F /* selectStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectStyleView.m; sourceTree = "<group>"; };
+		F1484159212C0B0800FC256F /* MailRichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailRichTextEditor.h; sourceTree = "<group>"; };
+		F148415A212C0B0800FC256F /* styleBtnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = styleBtnItem.h; sourceTree = "<group>"; };
+		F148415B212C0B0800FC256F /* mailTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mailTextView.m; sourceTree = "<group>"; };
+		F148415D212C0B0800FC256F /* MailRichTextEditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MailRichTextEditor.js; sourceTree = "<group>"; };
+		F148415E212C0B0800FC256F /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = editor.html; sourceTree = "<group>"; };
+		F148415F212C0B0800FC256F /* JSBeautifier.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSBeautifier.js; sourceTree = "<group>"; };
+		F1484160212C0B0800FC256F /* jQuery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jQuery.js; sourceTree = "<group>"; };
+		F1484161212C0B0800FC256F /* styleBtnItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = styleBtnItem.m; sourceTree = "<group>"; };
+		F1484162212C0B0800FC256F /* MailRichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailRichTextEditor.m; sourceTree = "<group>"; };
+		F1484163212C0B0800FC256F /* selectStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectStyleView.h; sourceTree = "<group>"; };
+		F1484164212C0B0800FC256F /* mailTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailTextView.h; sourceTree = "<group>"; };
+		F1484166212C0B0800FC256F /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		F1484167212C0B0800FC256F /* HRColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorUtil.h; sourceTree = "<group>"; };
+		F1484168212C0B0800FC256F /* CYRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextView.h; sourceTree = "<group>"; };
+		F1484169212C0B0800FC256F /* HRCgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCgUtil.m; sourceTree = "<group>"; };
+		F148416A212C0B0800FC256F /* HRColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerViewController.m; sourceTree = "<group>"; };
+		F148416B212C0B0800FC256F /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		F148416C212C0B0800FC256F /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		F148416D212C0B0800FC256F /* CYRLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRLayoutManager.m; sourceTree = "<group>"; };
+		F148416E212C0B0800FC256F /* CYRToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRToken.m; sourceTree = "<group>"; };
+		F148416F212C0B0800FC256F /* CYRTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextStorage.m; sourceTree = "<group>"; };
+		F1484170212C0B0800FC256F /* CYRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextView.m; sourceTree = "<group>"; };
+		F1484171212C0B0800FC256F /* HRColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorUtil.m; sourceTree = "<group>"; };
+		F1484172212C0B0800FC256F /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		F1484173212C0B0800FC256F /* HRColorPickerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerMacros.h; sourceTree = "<group>"; };
+		F1484174212C0B0800FC256F /* HRCgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCgUtil.h; sourceTree = "<group>"; };
+		F1484175212C0B0800FC256F /* CYRToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRToken.h; sourceTree = "<group>"; };
+		F1484176212C0B0800FC256F /* CYRLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRLayoutManager.h; sourceTree = "<group>"; };
+		F1484177212C0B0800FC256F /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		F1484178212C0B0800FC256F /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		F1484179212C0B0800FC256F /* HRColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerViewController.h; sourceTree = "<group>"; };
+		F148417A212C0B0800FC256F /* CYRTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextStorage.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13845BA212AB70F00AD6732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E7966C7BFE95E5B4C4AD81 /* libPods-ZX_all.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13845D2212AB71100AD6732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE182A76436D72322CF789B /* libPods-ZX_allTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13845DD212AB71100AD6732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597EDD00FC8F82829B9DC4D0 /* libPods-ZX_allUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71EA7959BA8E1D9238A872CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86145A9DBBC049BC7BA15F16 /* libPods-ZX_all.a */,
+				3572EE5BD61EE7F18711BDCB /* libPods-ZX_allTests.a */,
+				12BA43FB1748CDD45CC474A5 /* libPods-ZX_allUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F00EDB7D23FD87F642169BB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				013DD9AAA1486BDBBC4C155F /* Pods-ZX_all.debug.xcconfig */,
+				72920535B1EE31721009551D /* Pods-ZX_all.release.xcconfig */,
+				1F3AE759DE5A29A56D40628A /* Pods-ZX_allTests.debug.xcconfig */,
+				A262898FE2BE99076A3BD42F /* Pods-ZX_allTests.release.xcconfig */,
+				9011D02D668B3AA5953B558D /* Pods-ZX_allUITests.debug.xcconfig */,
+				A9E8989D866DC27B85376BD8 /* Pods-ZX_allUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F13845B4212AB70E00AD6732 = {
+			isa = PBXGroup;
+			children = (
+				F13845BF212AB70F00AD6732 /* ZX_all */,
+				F13845D8212AB71100AD6732 /* ZX_allTests */,
+				F13845E3212AB71100AD6732 /* ZX_allUITests */,
+				F13845BE212AB70F00AD6732 /* Products */,
+				F00EDB7D23FD87F642169BB4 /* Pods */,
+				71EA7959BA8E1D9238A872CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13845BE212AB70F00AD6732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13845BD212AB70F00AD6732 /* ZX_all.app */,
+				F13845D5212AB71100AD6732 /* ZX_allTests.xctest */,
+				F13845E0212AB71100AD6732 /* ZX_allUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13845BF212AB70F00AD6732 /* ZX_all */ = {
+			isa = PBXGroup;
+			children = (
+				F1484154212C0B0800FC256F /* mailEditor */,
+				F13845C0212AB70F00AD6732 /* AppDelegate.h */,
+				F13845C1212AB70F00AD6732 /* AppDelegate.m */,
+				F13845C3212AB70F00AD6732 /* ViewController.h */,
+				F13845C4212AB70F00AD6732 /* ViewController.m */,
+				F13845C6212AB70F00AD6732 /* Main.storyboard */,
+				F13845C9212AB71000AD6732 /* Assets.xcassets */,
+				F13845CB212AB71000AD6732 /* LaunchScreen.storyboard */,
+				F13845CE212AB71000AD6732 /* Info.plist */,
+				F13845CF212AB71000AD6732 /* main.m */,
+			);
+			path = ZX_all;
+			sourceTree = "<group>";
+		};
+		F13845D8212AB71100AD6732 /* ZX_allTests */ = {
+			isa = PBXGroup;
+			children = (
+				F13845D9212AB71100AD6732 /* ZX_allTests.m */,
+				F13845DB212AB71100AD6732 /* Info.plist */,
+			);
+			path = ZX_allTests;
+			sourceTree = "<group>";
+		};
+		F13845E3212AB71100AD6732 /* ZX_allUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F13845E4212AB71100AD6732 /* ZX_allUITests.m */,
+				F13845E6212AB71100AD6732 /* Info.plist */,
+			);
+			path = ZX_allUITests;
+			sourceTree = "<group>";
+		};
+		F1484154212C0B0800FC256F /* mailEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F1484155212C0B0800FC256F /* editorViewController.m */,
+				F1484156212C0B0800FC256F /* editorViewController.h */,
+				F1484157212C0B0800FC256F /* editor */,
+			);
+			path = mailEditor;
+			sourceTree = "<group>";
+		};
+		F1484157212C0B0800FC256F /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				F1484158212C0B0800FC256F /* selectStyleView.m */,
+				F1484159212C0B0800FC256F /* MailRichTextEditor.h */,
+				F148415A212C0B0800FC256F /* styleBtnItem.h */,
+				F148415B212C0B0800FC256F /* mailTextView.m */,
+				F148415C212C0B0800FC256F /* Source */,
+				F1484161212C0B0800FC256F /* styleBtnItem.m */,
+				F1484162212C0B0800FC256F /* MailRichTextEditor.m */,
+				F1484163212C0B0800FC256F /* selectStyleView.h */,
+				F1484164212C0B0800FC256F /* mailTextView.h */,
+				F1484165212C0B0800FC256F /* Third Party */,
+			);
+			path = editor;
+			sourceTree = "<group>";
+		};
+		F148415C212C0B0800FC256F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F148415D212C0B0800FC256F /* MailRichTextEditor.js */,
+				F148415E212C0B0800FC256F /* editor.html */,
+				F148415F212C0B0800FC256F /* JSBeautifier.js */,
+				F1484160212C0B0800FC256F /* jQuery.js */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F1484165212C0B0800FC256F /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				F1484166212C0B0800FC256F /* HRColorCursor.h */,
+				F1484167212C0B0800FC256F /* HRColorUtil.h */,
+				F1484168212C0B0800FC256F /* CYRTextView.h */,
+				F1484169212C0B0800FC256F /* HRCgUtil.m */,
+				F148416A212C0B0800FC256F /* HRColorPickerViewController.m */,
+				F148416B212C0B0800FC256F /* HRColorPickerView.m */,
+				F148416C212C0B0800FC256F /* HRBrightnessCursor.m */,
+				F148416D212C0B0800FC256F /* CYRLayoutManager.m */,
+				F148416E212C0B0800FC256F /* CYRToken.m */,
+				F148416F212C0B0800FC256F /* CYRTextStorage.m */,
+				F1484170212C0B0800FC256F /* CYRTextView.m */,
+				F1484171212C0B0800FC256F /* HRColorUtil.m */,
+				F1484172212C0B0800FC256F /* HRColorCursor.m */,
+				F1484173212C0B0800FC256F /* HRColorPickerMacros.h */,
+				F1484174212C0B0800FC256F /* HRCgUtil.h */,
+				F1484175212C0B0800FC256F /* CYRToken.h */,
+				F1484176212C0B0800FC256F /* CYRLayoutManager.h */,
+				F1484177212C0B0800FC256F /* HRBrightnessCursor.h */,
+				F1484178212C0B0800FC256F /* HRColorPickerView.h */,
+				F1484179212C0B0800FC256F /* HRColorPickerViewController.h */,
+				F148417A212C0B0800FC256F /* CYRTextStorage.h */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13845BC212AB70F00AD6732 /* ZX_all */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13845E9212AB71100AD6732 /* Build configuration list for PBXNativeTarget "ZX_all" */;
+			buildPhases = (
+				888D3145E0826875557A82F7 /* [CP] Check Pods Manifest.lock */,
+				F13845B9212AB70F00AD6732 /* Sources */,
+				F13845BA212AB70F00AD6732 /* Frameworks */,
+				F13845BB212AB70F00AD6732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZX_all;
+			productName = ZX_all;
+			productReference = F13845BD212AB70F00AD6732 /* ZX_all.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13845D4212AB71100AD6732 /* ZX_allTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13845EC212AB71100AD6732 /* Build configuration list for PBXNativeTarget "ZX_allTests" */;
+			buildPhases = (
+				308BA92949B868BC7443C120 /* [CP] Check Pods Manifest.lock */,
+				F13845D1212AB71100AD6732 /* Sources */,
+				F13845D2212AB71100AD6732 /* Frameworks */,
+				F13845D3212AB71100AD6732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13845D7212AB71100AD6732 /* PBXTargetDependency */,
+			);
+			name = ZX_allTests;
+			productName = ZX_allTests;
+			productReference = F13845D5212AB71100AD6732 /* ZX_allTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F13845DF212AB71100AD6732 /* ZX_allUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13845EF212AB71100AD6732 /* Build configuration list for PBXNativeTarget "ZX_allUITests" */;
+			buildPhases = (
+				842D2F24383934722E87DEB2 /* [CP] Check Pods Manifest.lock */,
+				F13845DC212AB71100AD6732 /* Sources */,
+				F13845DD212AB71100AD6732 /* Frameworks */,
+				F13845DE212AB71100AD6732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13845E2212AB71100AD6732 /* PBXTargetDependency */,
+			);
+			name = ZX_allUITests;
+			productName = ZX_allUITests;
+			productReference = F13845E0212AB71100AD6732 /* ZX_allUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13845B5212AB70F00AD6732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "赵祥";
+				TargetAttributes = {
+					F13845BC212AB70F00AD6732 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F13845D4212AB71100AD6732 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F13845BC212AB70F00AD6732;
+					};
+					F13845DF212AB71100AD6732 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F13845BC212AB70F00AD6732;
+					};
+				};
+			};
+			buildConfigurationList = F13845B8212AB70F00AD6732 /* Build configuration list for PBXProject "ZX_all" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13845B4212AB70E00AD6732;
+			productRefGroup = F13845BE212AB70F00AD6732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13845BC212AB70F00AD6732 /* ZX_all */,
+				F13845D4212AB71100AD6732 /* ZX_allTests */,
+				F13845DF212AB71100AD6732 /* ZX_allUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13845BB212AB70F00AD6732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13845CD212AB71000AD6732 /* LaunchScreen.storyboard in Resources */,
+				F1484180212C0B0800FC256F /* JSBeautifier.js in Resources */,
+				F148417F212C0B0800FC256F /* editor.html in Resources */,
+				F148417E212C0B0800FC256F /* MailRichTextEditor.js in Resources */,
+				F13845CA212AB71000AD6732 /* Assets.xcassets in Resources */,
+				F1484181212C0B0800FC256F /* jQuery.js in Resources */,
+				F13845C8212AB70F00AD6732 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13845D3212AB71100AD6732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13845DE212AB71100AD6732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		308BA92949B868BC7443C120 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZX_allTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		842D2F24383934722E87DEB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZX_allUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888D3145E0826875557A82F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZX_all-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13845B9212AB70F00AD6732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13845C5212AB70F00AD6732 /* ViewController.m in Sources */,
+				F148418A212C0B0800FC256F /* CYRTextStorage.m in Sources */,
+				F148417C212C0B0800FC256F /* selectStyleView.m in Sources */,
+				F13845D0212AB71000AD6732 /* main.m in Sources */,
+				F1484184212C0B0800FC256F /* HRCgUtil.m in Sources */,
+				F148418D212C0B0800FC256F /* HRColorCursor.m in Sources */,
+				F13845C2212AB70F00AD6732 /* AppDelegate.m in Sources */,
+				F148418B212C0B0800FC256F /* CYRTextView.m in Sources */,
+				F1484188212C0B0800FC256F /* CYRLayoutManager.m in Sources */,
+				F1484183212C0B0800FC256F /* MailRichTextEditor.m in Sources */,
+				F1484185212C0B0800FC256F /* HRColorPickerViewController.m in Sources */,
+				F148417D212C0B0800FC256F /* mailTextView.m in Sources */,
+				F1484187212C0B0800FC256F /* HRBrightnessCursor.m in Sources */,
+				F1484189212C0B0800FC256F /* CYRToken.m in Sources */,
+				F148418C212C0B0800FC256F /* HRColorUtil.m in Sources */,
+				F148417B212C0B0800FC256F /* editorViewController.m in Sources */,
+				F1484182212C0B0800FC256F /* styleBtnItem.m in Sources */,
+				F1484186212C0B0800FC256F /* HRColorPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13845D1212AB71100AD6732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13845DA212AB71100AD6732 /* ZX_allTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13845DC212AB71100AD6732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13845E5212AB71100AD6732 /* ZX_allUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13845D7212AB71100AD6732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13845BC212AB70F00AD6732 /* ZX_all */;
+			targetProxy = F13845D6212AB71100AD6732 /* PBXContainerItemProxy */;
+		};
+		F13845E2212AB71100AD6732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13845BC212AB70F00AD6732 /* ZX_all */;
+			targetProxy = F13845E1212AB71100AD6732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13845C6212AB70F00AD6732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13845C7212AB70F00AD6732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13845CB212AB71000AD6732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13845CC212AB71000AD6732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13845E7212AB71100AD6732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13845E8212AB71100AD6732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13845EA212AB71100AD6732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013DD9AAA1486BDBBC4C155F /* Pods-ZX_all.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
+				INFOPLIST_FILE = ZX_all/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxzxzxzx.ZX-all";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13845EB212AB71100AD6732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72920535B1EE31721009551D /* Pods-ZX_all.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
+				INFOPLIST_FILE = ZX_all/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxzxzxzx.ZX-all";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F13845ED212AB71100AD6732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3AE759DE5A29A56D40628A /* Pods-ZX_allTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
+				INFOPLIST_FILE = ZX_allTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxzxzxzx.ZX-allTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZX_all.app/ZX_all";
+			};
+			name = Debug;
+		};
+		F13845EE212AB71100AD6732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A262898FE2BE99076A3BD42F /* Pods-ZX_allTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
+				INFOPLIST_FILE = ZX_allTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxzxzxzx.ZX-allTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZX_all.app/ZX_all";
+			};
+			name = Release;
+		};
+		F13845F0212AB71100AD6732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9011D02D668B3AA5953B558D /* Pods-ZX_allUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
+				INFOPLIST_FILE = ZX_allUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxzxzxzx.ZX-allUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZX_all;
+			};
+			name = Debug;
+		};
+		F13845F1212AB71100AD6732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E8989D866DC27B85376BD8 /* Pods-ZX_allUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7K3S46CE;
+				INFOPLIST_FILE = ZX_allUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxzxzxzx.ZX-allUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZX_all;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13845B8212AB70F00AD6732 /* Build configuration list for PBXProject "ZX_all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13845E7212AB71100AD6732 /* Debug */,
+				F13845E8212AB71100AD6732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13845E9212AB71100AD6732 /* Build configuration list for PBXNativeTarget "ZX_all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13845EA212AB71100AD6732 /* Debug */,
+				F13845EB212AB71100AD6732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13845EC212AB71100AD6732 /* Build configuration list for PBXNativeTarget "ZX_allTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13845ED212AB71100AD6732 /* Debug */,
+				F13845EE212AB71100AD6732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13845EF212AB71100AD6732 /* Build configuration list for PBXNativeTarget "ZX_allUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13845F0212AB71100AD6732 /* Debug */,
+				F13845F1212AB71100AD6732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13845B5212AB70F00AD6732 /* Project object */;
+}
