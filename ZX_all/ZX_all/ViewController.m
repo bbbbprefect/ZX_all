@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "editorViewController.h"
-#include "testViewController.h"
+#import "testViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -36,7 +36,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return self.dataArray.count;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -53,7 +53,7 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     cell.textLabel.text = [_dataArray objectAtIndex:indexPath.row];
-    NSLog(@"%ld",(long)indexPath.row);
+
     cell.textLabel.textColor = [UIColor blueColor];
     return cell;
 }
@@ -61,7 +61,7 @@
 //选中时 调用的方法
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"选中didSelectRowAtIndexPath row = %ld", indexPath.row);
+  //  NSLog(@"选中didSelectRowAtIndexPath row = %ld", indexPath.row);
     
     switch (indexPath.row) {
         //测试界面跳转

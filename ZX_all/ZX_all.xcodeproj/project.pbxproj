@@ -18,6 +18,7 @@
 		F13845D0212AB71000AD6732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845CF212AB71000AD6732 /* main.m */; };
 		F13845DA212AB71100AD6732 /* ZX_allTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845D9212AB71100AD6732 /* ZX_allTests.m */; };
 		F13845E5212AB71100AD6732 /* ZX_allUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13845E4212AB71100AD6732 /* ZX_allUITests.m */; };
+		F15320DD213E6D4900353BF4 /* AppTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15320DC213E6D4900353BF4 /* AppTestViewController.m */; };
 		F19429DE212C146F00E08B1E /* editorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429B8212C146F00E08B1E /* editorViewController.m */; };
 		F19429DF212C146F00E08B1E /* selectStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429BB212C146F00E08B1E /* selectStyleView.m */; };
 		F19429E0212C146F00E08B1E /* mailTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F19429BE212C146F00E08B1E /* mailTextView.m */; };
@@ -83,6 +84,8 @@
 		F13845E0212AB71100AD6732 /* ZX_allUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZX_allUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13845E4212AB71100AD6732 /* ZX_allUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZX_allUITests.m; sourceTree = "<group>"; };
 		F13845E6212AB71100AD6732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15320DB213E6D4900353BF4 /* AppTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppTestViewController.h; sourceTree = "<group>"; };
+		F15320DC213E6D4900353BF4 /* AppTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTestViewController.m; sourceTree = "<group>"; };
 		F19429B8212C146F00E08B1E /* editorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editorViewController.m; sourceTree = "<group>"; };
 		F19429B9212C146F00E08B1E /* editorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editorViewController.h; sourceTree = "<group>"; };
 		F19429BB212C146F00E08B1E /* selectStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectStyleView.m; sourceTree = "<group>"; };
@@ -198,6 +201,7 @@
 		F13845BF212AB70F00AD6732 /* ZX_all */ = {
 			isa = PBXGroup;
 			children = (
+				F15320DA213E6D2D00353BF4 /* AppTest */,
 				F19429F1212C14AF00E08B1E /* testVC */,
 				F19429B7212C146F00E08B1E /* mailEditor */,
 				F13845C0212AB70F00AD6732 /* AppDelegate.h */,
@@ -229,6 +233,15 @@
 				F13845E6212AB71100AD6732 /* Info.plist */,
 			);
 			path = ZX_allUITests;
+			sourceTree = "<group>";
+		};
+		F15320DA213E6D2D00353BF4 /* AppTest */ = {
+			isa = PBXGroup;
+			children = (
+				F15320DB213E6D4900353BF4 /* AppTestViewController.h */,
+				F15320DC213E6D4900353BF4 /* AppTestViewController.m */,
+			);
+			path = AppTest;
 			sourceTree = "<group>";
 		};
 		F19429B7212C146F00E08B1E /* mailEditor */ = {
@@ -510,6 +523,7 @@
 				F19429EE212C146F00E08B1E /* CYRTextView.m in Sources */,
 				F19429EB212C146F00E08B1E /* CYRLayoutManager.m in Sources */,
 				F19429E6212C146F00E08B1E /* MailRichTextEditor.m in Sources */,
+				F15320DD213E6D4900353BF4 /* AppTestViewController.m in Sources */,
 				F19429F4212C14C000E08B1E /* testViewController.m in Sources */,
 				F19429E8212C146F00E08B1E /* HRColorPickerViewController.m in Sources */,
 				F19429E0212C146F00E08B1E /* mailTextView.m in Sources */,
