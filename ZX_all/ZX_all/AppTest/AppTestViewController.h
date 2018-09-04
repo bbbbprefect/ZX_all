@@ -6,8 +6,8 @@
 //  Copyright © 2018年 赵祥. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface AppTestViewController : ViewController
+@interface AppTestViewController : UIViewController
 
 @end

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "editorViewController.h"
 #import "testViewController.h"
+#import "AppTestViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -24,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataArray = [[NSMutableArray alloc]initWithObjects:@"测试界面",@"富文本编辑器", nil];
+    self.dataArray = [[NSMutableArray alloc]initWithObjects:@"测试界面",@"富文本编辑器",@"性能检测", nil];
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     
@@ -76,6 +77,13 @@
             {
                 editorViewController *eVC = [[editorViewController alloc]init];
                 [self.navigationController pushViewController:eVC animated:YES];
+            }
+            break;
+            //富文本跳转
+        case 2:
+            {
+                AppTestViewController *appTestVC = [[AppTestViewController alloc]init];
+                [self.navigationController pushViewController:appTestVC animated:YES];
             }
             break;
             
