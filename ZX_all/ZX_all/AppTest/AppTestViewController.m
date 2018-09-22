@@ -12,7 +12,7 @@
 
 @interface AppTestViewController ()
 
-
+@property(nonatomic,strong)UILabel *label;
 
 @end
 
@@ -22,6 +22,13 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.label = [[UILabel alloc]initWithFrame:CGRectMake(100, 600, 250, 50)];
+    self.label.layer.borderColor = [[UIColor grayColor]CGColor];
+    self.label.layer.borderWidth = 0.5f;
+    self.label.layer.masksToBounds = YES;
+    [self.label setText:@"反应数值"];
+    [self.view addSubview: self.label];
     
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 50)];
     btn.backgroundColor = [UIColor redColor];
@@ -39,11 +46,17 @@
 - (void)logMemory {
     unsigned long t = [self memoryUsage];
     NSLog(@"memoryUsage : %lu  kb",t);
+    
+    NSString *str = [NSString stringWithFormat:@"memoryUsage : %lu  kb",t];
+    [self.label setText:str];
 }
 
 - (void)logCPUused {
     float t = [self cpu_usage];
     NSLog(@"memoryUsage : 百分之 %f ",t);
+    
+    NSString *str = [NSString stringWithFormat:@"memoryUsage : 百分之 %f ",t];
+    [self.label setText:str];
 }
 
 - (void)didReceiveMemoryWarning {

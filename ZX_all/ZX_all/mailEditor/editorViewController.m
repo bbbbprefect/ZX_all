@@ -29,7 +29,7 @@
     
     // HTML Content to set in the editor
     NSString *html = @"<div class='test'></div><!-- This is an HTML comment -->"
-    "<p>This is a test of the <strong>ZSSRichTextEditor</strong> by <a title=\"Zed Said\" href=\"http://www.zedsaid.com\">Zed Said Studio</a></p>";
+    "<p>This is a test </p>";
 
     self.shouldShowKeyboard = YES;
     // Set the HTML contents of the editor

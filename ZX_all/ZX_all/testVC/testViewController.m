@@ -28,6 +28,18 @@
     [btn addTarget:self action:@selector(postMsg) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:btn];
     
+    NSString *Str = [[NSString alloc]init];
+    NSString *Str2 = [Str copy];
+    
+    NSLog(@"Str :  %p",Str);
+    NSLog(@"Str2 :  %p",Str2);
+    
+    NSMutableString *mStr = [[NSMutableString alloc]init];
+    NSMutableString *mStr2 = [mStr copy];
+    
+    NSLog(@"mStr :  %p",mStr);
+    NSLog(@"mStr2 :  %p",mStr2);
+    
 }
 
 - (void)didReceiveMemoryWarning {
